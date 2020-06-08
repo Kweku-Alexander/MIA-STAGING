@@ -1,0 +1,48 @@
+﻿
+
+
+#navi { 
+    font-size:0.9em; 
+    width:180px; 
+}
+ 
+#navi ul { 
+    margin:0; 
+    padding:0; 
+}
+ 
+#navi li { 
+    list-style: none; 
+} 
+ 
+ul.top-level { 
+    /*background:#666;
+    background:#161616;*/
+     background:rgb(0,59,77);
+}
+ 
+ul.top-level li {
+    border-bottom: #fff solid;
+    border-top: #fff solid;
+    border-width: 1px;
+}
+ 
+#navi a {
+    color: #fff;
+    cursor: pointer;
+    display:block;
+    height:25px;
+    line-height: 25px;
+    text-indent: 10px;
+     text-decoration:none;
+    width:100%;
+}
+ 
+#navi a:hover{
+    text-decoration:underline;
+}
+ 
+#navi li:hover {
+    background: #f90;
+    position: relative;
+}

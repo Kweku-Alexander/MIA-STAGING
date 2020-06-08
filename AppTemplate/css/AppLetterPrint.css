@@ -1,0 +1,664 @@
+﻿body 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif,Times New Roman;
+    font-size: 12px;
+    color: #000000;
+     background-color: rgb(240,240,240);
+    border-top: solid 0px #fff;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+ .header
+     {
+         display:none;
+     }
+     
+     .noprint
+     {
+         display:none;
+     }
+     
+     .hideSkiplink
+     {
+         display:none;
+     }
+ 
+      
+       
+         #rptPageBody2
+        {
+           width:750px;
+           color:Black;
+           background-color:#fff;
+            /*border:2px solid #aaa; */
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:11px;
+           overflow:hidden;
+            /* page-break-after:always; */
+       }
+       
+       
+   .rptPageBodyArea
+   {
+      width:750px;
+      color:Black;
+      background-color:#fff;
+      border:2px solid #fff;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:11px;
+      overflow:hidden;
+      page-break-after:always;
+    }
+       
+       .referenceleft
+       {
+           float:left; 
+           margin-left:20px;
+           width:270px; 
+           height:60px;
+       }
+       
+       
+        .rptPageHeader
+       {
+           width:700px;
+           margin-left:auto;
+           margin-right:auto;
+           text-align:center;
+           color:Black;
+           height:auto;
+           font-family:Verdana;
+           font-size:16px;
+       }
+       
+       
+       
+       
+      
+       
+       .rptTitleHeader
+       {
+           text-align:center;
+           background-color:#aaddcc;
+           color:Black;
+           font-family:Verdana;
+           font-weight:bold;
+           font-size:14px;
+       }
+       
+       .rptRightdiv
+       {
+           width:300px;
+           float:right;
+           margin-right:2px;
+           margin-top:10px;
+           margin-bottom:5px;
+       }
+       
+     
+       .rptRightdivPV
+       {
+           width:400px;
+           float:right;
+           margin-right:25px;
+           margin-top:15px;
+           margin-bottom:10px;
+       }
+       
+       .dateIssued
+       {
+             float:right; 
+          margin-right:20px;
+          font-weight:bold;
+          text-align:right;
+          margin-top:10px;
+          width:250px;  
+       }
+       
+      
+       .separator
+       {
+           width:300px;
+           height:10px;
+           float:right;
+       }
+       
+        .rpleftLogodiv
+       {
+           width:150px;
+           height:150px;
+           float:Left;
+          /* background-image: url('../Images/parliament_logo.png'); */
+           background-repeat:no-repeat;
+           margin-right:2px;
+           margin-left:30px;
+           margin-top:10px;
+           margin-bottom:2px;
+       }
+       
+       
+        .rpleftLogodivPV
+       {
+           width:150px;
+           height:150px;
+           float:Left;
+             /* background-image: url('../Images/parliament_logo.png'); */
+           background-repeat:no-repeat;
+           margin-right:2px;
+           margin-left:30px;
+           margin-top:15px;
+           margin-bottom:2px;
+       }
+       
+   
+       .rptBody
+       {
+           width:750px;
+           height:auto;
+           margin-top:220px;
+       }
+       
+        #rptPageBody
+        {
+           width:800px;
+           color:Black;
+           background-color:#fff;
+           border:2px solid #fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:11px;
+           overflow:auto;
+           page-break-after:always;
+       }
+       
+       
+     
+       .taxComponent
+       {
+           float:left;
+           margin-right:20px;
+           margin-top:10px;
+       }
+       
+       .taxComponentRight
+       {
+           float:Right;
+           margin-top:10px;
+       }
+      
+    .tdRight
+    {
+      text-align:Left;  
+      display : block;  
+      color:Black;
+      font-weight:bold;
+      font-family:Verdana;
+      padding: 3px 3px;
+   }
+   
+    .tdRightFont
+    {
+      text-align:Left;  
+      display : block;
+      font-size:14px;  
+      color:Black;
+      font-family:Verdana;
+      padding: 2px 2px;
+   }
+   
+   
+   .tdSumTotals
+    {
+      text-align:Left;  
+      text-decoration: underline;
+      display : block;
+      font-size:14px;  
+      color:Black;
+      font-family:Verdana;
+      font-weight:bold;
+      padding: 2px 2px;
+    }
+    
+    
+    .tdSumlightTotals
+    {
+      text-align:Left;  
+      text-decoration: underline;
+      display : block;
+      font-size:12px;  
+      color:Black;
+      font-family:Verdana;
+      padding: 1px 1px;
+   }
+    
+    
+    
+   
+    .tdRightFontText
+    {
+       text-align:right; 
+       display : block;
+       font-size:14px;  
+       color:Black;
+       font-family:Verdana;
+       padding: 2px 2px;
+   }
+   
+    .figures
+   {
+       text-align:center;
+       border:1px solid #000;
+   }
+   
+   .noprint
+ {
+     width:800px;
+     margin:auto;
+ }
+   
+  .gridview
+  { 
+      width:100%;
+      margin:0px;
+      padding:0px;
+      border: 1px solid #ddd;
+  }
+   
+  .gridview th
+  {
+      background-color:White;
+      text-align:left;
+      font-size:12pt; 
+  }
+  
+  .gridview td
+  { 
+      background-color:#fff;
+      font-size:12pt; 
+      padding: 6px;
+  }
+  
+  
+  
+  .gridviewPV
+  { 
+      width:100%;
+      margin:0px;
+      padding:0px;
+      border: 1px solid #ddd;
+  }
+   
+  .gridviewPV th
+  {
+      background-color:White;
+      text-align:left;
+      font-size:10pt; 
+  }
+  
+  .gridviewPV td
+  { 
+      background-color:#fff;
+      font-size:10pt; 
+      padding: 3px;
+  }
+   
+   
+   .totalAmt
+   {
+       font-weight:bold;
+   }
+   
+   
+ .tdRightRpt
+ {
+    text-align:right;  
+    display: block;  
+    font-family:Verdana;
+    padding: 4px 6px;
+    font-weight:bold;
+
+ }
+   
+   
+   
+       /**********  Payment Voucher CSS *****************/
+      .rptgroup
+      {
+          width:700px;
+          height:230px;
+          border:1px solid #000;
+            margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px; 
+      }
+      
+       .rpleftAddress
+       {
+           width:280px;
+           height:100px;
+           float:Left;
+           border:1px solid #000;
+           margin-right:5px;
+           margin-left:2px;
+           margin-top:5px;
+           margin-bottom:2px;
+       }
+       
+       .rpleftSupplier
+       {
+           width:280px;
+           height:110px;
+           float:Left;
+           border:1px solid #000;
+           margin-right:5px;
+           margin-left:2px;
+           margin-top:5px;
+           margin-bottom:5px;
+       }
+       
+       .rptRightInformation
+       {
+           width:380px;
+           height:auto;
+           float:right;
+           border:1px solid #000;
+           margin-right:20px;
+           margin-top:5px;
+           margin-bottom:5px;
+       }
+       
+       
+       .rptpaymentGridInformation
+       {
+           width:770px;
+           height:auto;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:20px;
+           margin-bottom:2px; 
+           clear:both;
+       }
+       
+             
+       .rptLedgerFolioView
+       {
+           width:700px;
+           height:auto;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px; 
+       }
+       
+       .rptHeadings
+       {
+           width:700px;
+           height:auto;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px; 
+       }
+       
+       
+    .heading
+    {
+    /* text-align:center;
+     text-decoration:underline;
+     font-weight:bold;
+     width:100%;
+     margin-top:20px;
+     margin:auto;
+      */
+        text-align:center;
+        text-decoration:underline;
+        width:700px;
+        font-weight:bold;
+        margin-top:90px;
+        margin-left:20px;
+        margin-right:20px;
+        height: 17px;
+        position:relative;
+   }
+   
+   
+  .LetterBody 
+  {
+      width:700px;
+      color:Black;
+      margin-top:10px;
+      margin:auto;
+      text-align:justify;
+      position:static;
+   }
+   
+  .LetterBodyEnd
+  {
+    margin-left:8px;
+    width:300px;
+    text-align:justify;
+  }
+   
+   
+  .LetterBody1
+  {
+      width:300px;
+      color:Black;
+      margin-top:10px;
+      margin-left:20px;
+      float:left;
+      text-align:justify;
+      position:static;
+      height:180px;
+   }
+   
+ .LetterBody2
+  {
+      width:360px;
+      color:Black;
+      margin-top:2px;
+      margin-right:5px;
+      border:2px solid #000;
+      float:right;
+      text-align:justify;
+      padding:4px;
+      position:relative;
+   }
+       
+  
+   .referenceAddress
+    {
+       float :right; 
+       margin-right:20px;
+       width:310px; 
+       text-align:right;
+     
+    }
+    
+    
+      #rptPageBodyOne
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:11px;
+           overflow:hidden;
+           page-break-after:always;
+        }
+       
+        #rptPageBodyTwo
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+       }
+       
+       
+        #rptPageBodyThree
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+       }
+       
+       
+         #rptPageBodyFour
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+        }
+        
+         #rptPageBodyFive
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+        }
+        
+        
+         #rptPageBodySix
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+        }
+        
+         #rptPageBodySeven
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+        }
+        
+         #rptPageBodyEight
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+        }
+        
+         #rptPageBodyNine
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+        }
+        
+        
+         #rptPageBodyTen
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:hidden;
+           page-break-before:always;
+        }
+       
+       
+         
+  .CaptionHeader
+  {
+    /* text-align:center;
+     text-decoration:underline;
+     font-weight:bold;
+     width:100%;
+     margin-top:20px;
+     margin:auto;
+      */
+     text-align:center;
+     text-decoration:underline;
+     width:600px;
+     font-weight:bold;
+     margin-top:150px;
+     margin-left:20px;
+     margin-right:20px;
+     height: 17px;
+     position:relative;
+  }
+       
+ 
+  li 
+ {
+    list-style-position:outside;
+    text-align:justify;
+    margin-left:1px;
+    width:675px;
+ }
+ 
+ .li-content 
+ {
+    position: absolute;
+    left:80px;
+    top: 453px;
+ }
+       
+       
+  .barcode
+   {
+       float:left; 
+       margin-left:25px;
+       margin-top:10px;
+       margin-bottom:5px;
+       width:270px;
+   }
+       
+      
+    
+       
+ 

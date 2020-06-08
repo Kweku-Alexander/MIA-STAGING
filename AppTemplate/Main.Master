@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="AppTemplate.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    <div class="page">
+        <div class="header" id="banner">
+        <!--div id="banner"></div-->
+            <div class="title">
+                <h1>
+                    &nbsp;
+
+                </h1>
+            </div>
+
+            <div class="loginDisplay">
+                  <asp:Label ID="role_id_label" runat="server" Text="role_id"></asp:Label>
+                  <asp:Label ID="Usename" runat="server" Text="Label" ForeColor="White"></asp:Label>
+                 <asp:Button ID="btn_logout" runat="server" Height="33px" OnClick="btn_logout_Click" Text="Log Out" TextColor="White" Width="96px" BackColor="MediumBlue" BorderColor="MediumBlue" ForeColor="White" />
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    
+                    <%--<LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>--%>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+               <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="menu" 
+                    Orientation="Horizontal" StaticDisplayLevels="2" 
+                    StaticSubMenuIndent="16px" onmenuitemclick="Menu1_MenuItemClick" onmenuitemdatabound="sitemap1_MenuItemDataBound">
+                </asp:Menu>
+            </div>
+        </div><br />
+         <!--div id="breadcrumps">
+          <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+              Font-Size="0.9em" PathSeparator=" : ">
+              <CurrentNodeStyle ForeColor="#333333" />
+              <NodeStyle Font-Bold="True" ForeColor="#990000" />
+              <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+              <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+          </asp:SiteMapPath>
+         </div-->
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"/>
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Operations/MainPage.aspx" title="Home"  description="Applicant page" roles="Admin, Refund Officer">
+    
+
+    <siteMapNode url="" title="Account"  description="All about account management" >
+      <siteMapNode url="~/Account/CreateUser.aspx" title="Create User"  description="" />
+      <siteMapNode url="~/Account/ChangePassword.aspx" title="Change Password"  description="" />
+      <siteMapNode url="~/Account/Logged_Users/Logged_user.aspx" title="Track User"  description="" />
+      <!--<siteMapNode url="~/Operations/ReplacementForm.aspx" title="Replacement "  description="" />-->
+      <!--<siteMapNode url="~/Operations/ReplacedMeter.aspx" title="Replaced Meters"  description="" />-->
+    
+    </siteMapNode>
+
+    <siteMapNode url="" title="Supervisor"  description="">
+      <siteMapNode url="~/Operations/ViewMeter/ApprovedAll.aspx" title="Approved Meters"  description="" />
+       <siteMapNode url="~/Operations/ViewMeter/RejectedMeters.aspx" title="Rejected Meters"  description="" />
+       <siteMapNode url="~/Operations/ViewMeter/Escalate.aspx" title="Escalated Meters"  description="" />
+      <siteMapNode url="~/Operations/Resend_Refund/Resend_refund.aspx" title="Refund Meters"  description="" />
+     <!--<siteMapNode url="~/Operations/Ploit_District.aspx" title="Ploit Meters"  description="" />-->
+    </siteMapNode>
+   
+    <siteMapNode url="" title="Manager"  description="All about account management" >
+      <siteMapNode url="~/Operations/ViewMeter/Manager/ApprovedAll.aspx" title="Authorised Meters"  description="" />
+      <siteMapNode url="~/Operations/ViewMeter/Manager/RejectedMeters.aspx" title="Rejected Meters"  description="" />
+     
+    </siteMapNode>
+  
+      <siteMapNode url="~/CaptureInfo/captureInfo.aspx" title="Capture Info"  description="Applicant page">
+    </siteMapNode>
+    <siteMapNode url="" title="Report"  description="">
+     
+     <siteMapNode url="~/AssignMeter/AssignMeterContractor.aspx" title="Assign meter"  description="" />
+    </siteMapNode>
+  </siteMapNode>
+  
+</siteMap>

@@ -1,0 +1,212 @@
+﻿body{
+    background-color:#5898b9;
+}
+
+
+ #Login
+
+{
+    /*font-family:Arial;
+    font-size:medium;
+    background-color:lightBlue;
+    border:solid 2px lightgray;*/
+
+    margin:60px auto 60px auto;
+    padding:2px;
+    width:250px;
+
+     background: #f0f0f0;
+     border: 2px solid #4372AA;
+     /*padding: 1em;*/
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+}
+
+
+
+
+.inputDiv
+{
+    background: url('/Images/bg.png') no-repeat center center fixed;
+	background-repeat:repeat-x;
+}
+
+
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+
+.user_information
+{
+   Width:600px;
+   margin:auto;
+   margin-top:80px;
+   margin-bottom:5px;
+   background-color:#ebe2e2;
+   color:black;
+   border: 1px solid #99adeb;
+}
+
+
+.information
+{
+   Width:600px;
+   margin:auto;
+   margin-top:50px;
+   background-color:rgb(249,246,193);
+   color:black;
+   border: 1px solid #99adeb;
+}
+
+.notification {
+  text-align:center;
+  color:red;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.paynum {
+
+    color:red;
+}
+
+
+ /* This is the CSS class to use when no focus is on the input control */
+    .input_captcha
+    {
+       border:1px solid #c0c0c0;
+       width:250px;
+       padding:2px;
+       color:#000;
+       text-align:center;
+       font-size:16;
+       font-weight:bold;
+       background-color:#ffffff;
+       height:30px;
+    }
+
+   /* This is the CSS class to use when the control has focus */
+   .input_captcha:focus, input.input_captcha_focus
+   {
+      border-color:#4372AA;
+      background-color:#fffdb4;
+   }
+
+
+.tdRight {
+    text-align: right;
+    display: block;
+    color: #000;
+    font-family: Verdana;
+    padding: 0px 12px;
+}
+
+.view_entry {
+    margin:auto;
+    width:600px;
+    background-color:white;
+    border:2px solid #403a3a; 
+}
+
+
+.float-left {
+    margin-top:50px;
+    margin:auto;
+    float: left;
+    color: inherit;
+}
+
+
+ .input_text
+    {
+       border:2px solid #c0c0c0;
+       width:200px;
+       padding:4px;
+       font-family:Arial;
+       background-color:#FDFEFE;
+       height: 28px;
+    }
+
+   /* This is the CSS class to use when the control has focus */
+   .input_text:focus, input.input_text_focus
+   {
+      border-color:#4372AA;
+      background-color:#fffdb4;
+   }
+
+
+
+
+   .input_meter_no
+    {
+       border:2px solid #c0c0c0;
+       width:200px;
+       padding:4px;
+       font-family:Arial;
+       font-size:28px;
+       background-color:#FDFEFE;
+       height: 35px;
+    }
+
+   /* This is the CSS class to use when the control has focus */
+   .input_meter_no:focus, input.input_meter_no_focus
+   {
+      border-color:#4372AA;
+      background-color:#fffdb4;
+   }
+
+
+
+
+
+
+   .input_amountValue
+    {
+       width:150px;
+       height:35px;
+       text-align:left;
+       font-size:28px;
+       padding:4px;
+       background-color:#fffdb4;
+    }
+
+
+    .submitButton
+   {
+      border: none;
+      width:80px;
+      height:30px;
+      font-weight:bold;
+      padding: 1px;
+      text-decoration: none;
+      text-align:center;
+      font-size: 12px;
+      margin:auto;
+     /*-moz-border-radius: 4px;
+     -webkit-border-radius: 4px;*/
+      background:#5a5656;
+      color: White;
+      /*box-shadow: 0 1px 0 white;
+      -moz-box-shadow:0 1px 0 white;*/
+    }
+        
+     .submitButton:hover
+     {
+        cursor:pointer;
+        background: rgb(41,41,41);
+     }
+
+           
+
+#_txtUsername,#_txtPassword
+
+{
+    font-size:14px;
+    text-align:center;
+    width:240px;
+    background-color:#fffdb4;
+}
+
+.error
+{
+ color:Red;
+ font-size:medium;
+} 

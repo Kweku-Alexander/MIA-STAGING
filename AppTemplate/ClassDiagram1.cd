@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppTemplate.Account.ChangePassword" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAQAAAAAAAEAAAAAAAEgAAAAAAAIAAAA=</HashCode>
+      <FileName>Account\ChangePassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Account.CreateUser" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAAAAAAEAAJAQAAAAAAQEAAIAAAAEgAAAAAICIAAAA=</HashCode>
+      <FileName>Account\CreateUser.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Account._default" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Account\default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Account.Login" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgEAAAAAAAAAAAAAgAAAAQQAAAAAAAACIAAAA=</HashCode>
+      <FileName>Account\Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Account.LoginPage" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgAACAAAAAAAIAAAFAAIEAAAAAAAAAIAAIAAEA=</HashCode>
+      <FileName>Account\LoginPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate._default" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Main" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAACAAAAAAAAABIBACQAQAAAAAAAMAAAA=</HashCode>
+      <FileName>Main.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Role" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Response" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.MeterDetials" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgCAAIABACAAAAAQAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.MeterDetialsResponse" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.CostomerInfor" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAiAAAAgAgAAAAAgAYQEggAAAAIkAAQAgABQA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.autorefund" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Ressuveyall" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEERAACIAAEgCgAAAQAwAYQAAECAAAIIAAAAiAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Test55" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAAAAAAAAAQAgAAQAAECAAAAIAAAACAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.New" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAACAgAAAAAAAgAYQAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Role_Drop" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.createuser" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.viewAll" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAgAAAAAAAAQAAAAAAAIAAAAAgAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.fetchRoles" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.approval" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.reject" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.approvedMeter" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACUEBAAAIAAAAAAAAAQggAAQJAECQEAIAAAAAiAACA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.rejectedMeter" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAQBAECAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.alluser" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.WebForm1" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>WebForm1.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Login.Stock.LoginPage2" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgAACAAAAAAAAAAAAAAIEAAAAAAAAAIAAIAAQA=</HashCode>
+      <FileName>Login\LoginPage2.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.DetialsModelWeb" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAAAAAIgAAggAANgAABAAAAAFAAICIAKgAAA=</HashCode>
+      <FileName>Operations\DetialsModelWeb.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.MainPage" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJSIYkUBFkEDAIkAAgggwvgQATH/FBQHAMY/IwKgExg=</HashCode>
+      <FileName>Operations\MainPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.ReplacedForm" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgBAAAAEADAAIAAAAAAAABAAAAUAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Operations\ReplacedForm.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.ReplacedMeter" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAAIgAAAgAAAIAAAgAAApAAAAEAAAAEAAIAIAIgAAA=</HashCode>
+      <FileName>Operations\ReplacedMeter.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.ReplamentForm" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAIYAEAEEAAAIggAhhAQrgQAQGAEBAHAIIEIgIgARA=</HashCode>
+      <FileName>Operations\ReplacementForm.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.superviorForm" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgBBAAAEADAAIAAAAAAAAhACAAQAAAAAAAQAAIAALA=</HashCode>
+      <FileName>Operations\superviorForm.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.SupervisorPage" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAIAAAA=</HashCode>
+      <FileName>Operations\SupervisorPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.WebForm1" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAIAIAAAA=</HashCode>
+      <FileName>Operations\UsersPage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Promotion.Error3" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Operations\Error3.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.ViewMeter.RejectedMeters" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAAIgAAAgAAAIAAAgAAApAAAAEAAAAEAAIAIAIgAAA=</HashCode>
+      <FileName>Operations\ViewMeter\RejectedMeters.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Operations.ViewMeter.ViewAllDetials" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAEADAAIgAAAAAAJBAAAAUAAAEAAIAAAIgAAA=</HashCode>
+      <FileName>Operations\ViewMeter\ViewAllDetials.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.sysadmin._default" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>sysadmin\default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppTemplate.Test5.Test5i" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAAIgAAAkAAAIgAAgAAApAQAAEAAAAEAAYAIAIgAAA=</HashCode>
+      <FileName>Test5\Test5i.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

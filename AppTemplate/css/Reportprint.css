@@ -1,0 +1,530 @@
+﻿body 
+     {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #000000;
+        border-top: solid 0px #fff;
+        background-color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        
+     }
+     
+     .header
+     {
+         display:none;
+     }
+     
+     .noprint
+     {
+         display:none;
+     }
+     
+     .hideSkiplink
+     {
+         display:none;
+     }
+ 
+      .rptPage
+        {
+           width:800px;
+           color:Black;
+           background-color:#fff;
+           border:1px solid #aaa;
+           overflow:auto;
+       }
+       
+        #rptPageBody
+        {
+           width:800px;
+           color:Black;
+           background-color:#fff;
+           border:1px solid #000;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:11px;
+           overflow:auto;
+       }
+       
+         #rptPageBody2
+        {
+           width:750px;
+           color:Black;
+           background-color:#fff;
+           border:2px solid #aaa;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:11px;
+           overflow:auto;
+            /* page-break-after:always; */
+       }
+       
+       
+       .rptPageHeader
+       {
+           width:700px;
+           margin-left:auto;
+           margin-right:auto;
+           text-align:center;
+           color:Black;
+           height:auto;
+           font-family:Verdana;
+           font-weight:bold;
+           font-size:16px;
+       }
+       
+       .rptTitleHeader
+       {
+           text-align:center;
+           background-color:#aaddcc;
+           color:Black;
+           font-family:Verdana;
+           font-weight:bold;
+           font-size:14px;
+       }
+       
+       .rptRightdiv
+       {
+           width:300px;
+           float:right;
+           margin-right:2px;
+           margin-top:10px;
+           margin-bottom:5px;
+       }
+       
+       
+       .rptRightdivPV
+       {
+           width:400px;
+           float:right;
+           margin-right:25px;
+           margin-top:15px;
+           margin-bottom:5px;
+       }
+       
+       
+       .separator
+       {
+           width:300px;
+           height:10px;
+           float:right;
+       }
+       
+        .rpleftLogodiv
+       {
+           width:150px;
+           height:150px;
+           float:Left;
+          /* background-image: url('../Images/parliament_logo.png'); */
+           background-repeat:no-repeat;
+           margin-right:2px;
+           margin-left:30px;
+           margin-top:10px;
+           margin-bottom:2px;
+       }
+       
+       
+        .rpleftLogodivPV
+       {
+           width:150px;
+           height:150px;
+           float:Left;
+             /* background-image: url('../Images/parliament_logo.png'); */
+           background-repeat:no-repeat;
+           margin-right:2px;
+           margin-left:30px;
+           margin-top:15px;
+           margin-bottom:2px;
+       }
+       
+   
+       .rptBody
+       {
+           width:750px;
+           height:auto;
+           margin-top:220px;
+       }
+       
+        #rptPageBody
+        {
+           width:800px;
+           color:Black;
+           background-color:#fff;
+           border:2px solid #aaa;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:11px;
+           overflow:auto;
+           page-break-after:always;
+       }
+       
+       
+       #rptPageBody2
+        {
+           width:740px;
+           color:Black;
+           background-color:#fff;
+           border:2px solid #aaa;
+           margin-left:auto;
+           margin-right:auto;
+           margin-top:50px;
+           overflow:auto;
+           page-break-before:always;
+       }
+       
+       
+       .taxComponent
+       {
+           float:left;
+           margin-right:20px;
+           margin-top:10px;
+       }
+       
+       .taxComponentRight
+       {
+           float:Right;
+           margin-top:10px;
+       }
+      
+    .tdRight
+    {
+      text-align:Left;  
+      display : block;  
+      color:Black;
+      font-weight:bold;
+      font-family:Verdana;
+      padding: 3px 3px;
+   }
+   
+    .tdRightFont
+    {
+      text-align:Left;  
+      display : block;
+      font-size:14px;  
+      color:Black;
+      font-family:Verdana;
+      padding: 2px 2px;
+   }
+   
+   
+   .tdSumTotals
+    {
+      text-align:Left;  
+      text-decoration: underline;
+      display : block;
+      font-size:14px;  
+      color:Black;
+      font-family:Verdana;
+      font-weight:bold;
+      padding: 2px 2px;
+    }
+    
+    
+    .tdSumlightTotals
+    {
+      text-align:Left;  
+      text-decoration: underline;
+      display : block;
+      font-size:12px;  
+      color:Black;
+      font-family:Verdana;
+      padding: 1px 1px;
+   }
+    
+    
+    
+   
+    .tdRightFontText
+    {
+       text-align:right; 
+       display : block;
+       font-size:14px;  
+       color:Black;
+       font-family:Verdana;
+       padding: 2px 2px;
+   }
+   
+    .figures
+   {
+       text-align:center;
+       border:1px solid #000;
+   }
+   
+   .noprint
+ {
+     width:800px;
+     margin:auto;
+ }
+   
+  .gridview
+  { 
+      width:100%;
+      margin:0px;
+      padding:0px;
+      border: 1px solid #ddd;
+  }
+   
+  .gridview th
+  {
+      background-color:White;
+      text-align:left;
+      font-size:12pt; 
+  }
+  
+  .gridview td
+  { 
+      background-color:#fff;
+      font-size:12pt; 
+      padding: 6px;
+  }
+  
+  
+  
+  .gridviewPV
+  { 
+      width:100%;
+      margin:0px;
+      padding:0px;
+      border: 1px solid #ddd;
+  }
+   
+  .gridviewPV th
+  {
+      background-color:White;
+      text-align:left;
+      font-size:10pt; 
+  }
+  
+  .gridviewPV td
+  { 
+      background-color:#fff;
+      font-size:10pt; 
+      padding: 3px;
+  }
+   
+   
+   .totalAmt
+   {
+       font-weight:bold;
+   }
+   
+   
+ .tdRightRpt
+ {
+    text-align:right;  
+    display: block;  
+    font-family:Verdana;
+    padding: 4px 6px;
+    font-weight:bold;
+
+ }
+   
+   
+   
+       /**********  Payment Voucher CSS *****************/
+      .rptgroup
+      {
+          width:700px;
+          height:230px;
+          border:1px solid #000;
+            margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px; 
+      }
+      
+       .rpleftAddress
+       {
+           width:280px;
+           height:100px;
+           float:Left;
+           border:1px solid #000;
+           margin-right:5px;
+           margin-left:2px;
+           margin-top:5px;
+           margin-bottom:2px;
+       }
+       
+       .rpleftSupplier
+       {
+           width:280px;
+           height:110px;
+           float:Left;
+           border:1px solid #000;
+           margin-right:5px;
+           margin-left:2px;
+           margin-top:5px;
+           margin-bottom:5px;
+       }
+       
+       .rptRightInformation
+       {
+           width:380px;
+           height:auto;
+           float:right;
+           border:1px solid #000;
+           margin-right:20px;
+           margin-top:5px;
+           margin-bottom:5px;
+       }
+       
+       
+       .rptpaymentGridInformation
+       {
+           width:770px;
+           height:auto;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:20px;
+           margin-bottom:2px; 
+           clear:both;
+       }
+       
+             
+       .rptLedgerFolioView
+       {
+           width:700px;
+           height:auto;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px; 
+       }
+       
+       .rptHeadings
+       {
+           width:700px;
+           height:auto;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px; 
+       }
+       
+       .rptTaxComponent
+       {
+           width:700px;
+           height:115px;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:20px;
+           margin-bottom:2px; 
+       }
+       
+       
+        .rptFinal
+       {
+           width:700px;
+           height:90px;
+           border:1px solid #000;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:20px;
+           margin-bottom:2px; 
+       }
+       
+       
+       
+       .rptChequeView
+       {
+           width:700px;
+           height:60px;
+           border:1px solid #fff;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px; 
+       }
+       
+       .AmtToWords
+       {
+          width:700px;
+          height:30px;
+          border:1px solid #fff;
+          margin-right:auto;
+          margin-left:auto;
+          margin-top:10px;
+          margin-bottom:2px;    
+       }
+       
+       
+       .rptStaticDetails
+       {
+           width:700px;
+            height:150px;
+      
+           border:1px solid #000;
+            margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px;
+       }
+       
+       .rptAccountCodeItemDesc
+       {
+           width:700px;
+           height:auto;
+
+           border:1px solid #000;
+            margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px;
+       }
+       
+       
+    .input_cashAmtReceiptRpt
+    {
+       border:0px solid #000;
+       background-color:#fff;
+       color:#000;
+       width:100px;
+       height:35px;
+       text-align:Right;
+       font-size:12px;
+       font-weight:bold;
+       padding:4px;
+    }
+    
+    
+    .input_DirectDebits
+    {
+       border:1px solid #000;
+       background-color:#fff;
+       color:#000;
+       width:200px;
+       height:35px;
+       text-align:Right;
+       font-size:12px;
+       font-weight:bold;
+       padding:4px;
+    }
+   
+   
+   .rptTitleHeadings
+       {
+           width:700px;
+           height:auto;
+           border:0px solid #000;
+           font-weight:bold;
+           margin-right:auto;
+           margin-left:auto;
+           margin-top:10px;
+           margin-bottom:2px;
+           position:relative;
+       }
+       
+       
+ .tdstyleOutput
+ {
+     height: 21px;
+     color:#000000;
+     text-align:right;
+     padding:6px 12px;
+     font-weight:bold;
+     font-family:"Helvetica","Lucida Grande","Segoe UI",Arial,Helvetica,Verdana,sans-serif;
+  }
